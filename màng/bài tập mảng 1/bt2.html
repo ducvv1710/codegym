@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [10, 12, 22, 2, 55, 8, 99, 5,9,100]
+    let max = 0
+    let viTri = 0
+
+    for (let i = 0; i < arr.length;i++) {
+
+        if (arr[i] > max) {
+            max = arr[i]
+            viTri = i+1
+        }
+    }
+        alert("so lon nhat la : " + max)
+        alert("vi tri cua so lon nhat la : " + viTri)
+
+</script>
+</body>
+</html>

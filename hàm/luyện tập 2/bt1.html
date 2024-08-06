@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<button onclick="result()">Click</button>
+<body>
+<script>
+    function getSquare(num) {
+        return num * num
+    }
+    function result() {
+        let num = +prompt("nhap so ban muon binh phuong : ")
+        let result = getSquare(num)
+        return document.write( result)
+    }
+</script>
+</body>
+</html>

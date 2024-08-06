@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = [5, 6, 9, 15, 21, 23, 8, 19, 155, 121];
+    let find = +prompt("Nhập số muốn kiểm tra");
+    document.write("Mảng ban đầu là: "+arr + "<br>")
+    let count=0;
+    for (let i = 0; i < arr.length; i++) {
+        if (find === arr[i]) {
+            arr.splice(i,1);
+            arr.push(0);
+        }
+    }
+    document.write("Chuỗi sau khi check là: "+arr)
+
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 5</title>
+</head>
+<body>
+<h1>Tìm chòm sao </h1>
+<br> Ngôi sao <input type="text" id="chomsao" placeholder="Nhập tên ngôi sao"> </br>
+<br>
+<button style="width:130px; height:30px" onclick="result()">Kiểm tra</button>
+<p id="result"></p>
+</body>
+<script>
+    let star1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"]
+    let star2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"]
+
+    function check_star(starName) {
+        for (let i = 0; i < star1.length; i++) {
+            if (star1[i].toLowerCase() === starName.toLowerCase()) {
+                return "Ngôi sao " + starName + " thuộc chòm sao " + star2[i];
+            }
+        }
+        return document.getElementById("result").innerHTML = "Không tìm thấy ngôi sao nào.";
+    }
+
+    function result() {
+        let starName = document.getElementById("chomsao").value;
+        let result = check_star(starName);
+        document.getElementById("result").innerHTML = result;
+    }
+
+</script>
+</html>

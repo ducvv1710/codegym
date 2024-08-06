@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = []
+    let number = +prompt("nhập số phần tử trong mảng :")
+    let soNguyenV=+prompt("sô nguyên V là : ")
+
+    for (let i = 0; i < number; i++) {
+        arr[i] = +prompt("nhập phần tử " + i + "trong mảng ")
+    }
+    alert("mảng hien có là  " + arr)
+     let count=0
+    for (let i = 0; i < number; i++) {
+        if (soNguyenV === arr[i]) {
+            count++
+        }
+    }
+
+     if( count >= 1) {
+        alert("V is in the array")
+     }
+     if (count === 0){
+        alert("V is not  in the array" )
+
+    }
+</script>
+</body>
+</html>

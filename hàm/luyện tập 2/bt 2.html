@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<button onclick="result()">Dien Tich</button>
+<button onclick="ketQua()">Chu vi</button>
+<body>
+<script>
+
+    function chuVi(R) {
+        return 3.14* R *2
+    }
+    function ketQua() {
+        let R = +prompt("nhap duong kinh : ")
+        let result = chuVi(R)
+        return document.write("chu vi hinh tron la "+  result)
+    }
+    function dienTich(num) {
+        return 3.14*(num/2)*2*2
+    }
+    function result() {
+        let num = +prompt("nhap ban kinh : ")
+        let result = dienTich(num)
+        return document.write("Dien tich hinh tron la" + result)
+    }
+</script>
+</body>
+</html>

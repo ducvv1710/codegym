@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = []
+    let number = +prompt("nhập số phần tử trong mảng :")
+    let trungGian
+    for (let i = 0; i < number; i++) {
+        arr[i] = +prompt("nhập phần tử " + i + "trong mảng ")
+    }
+    alert("mảng hien có là  " + arr)
+
+
+    for (let i = 0; i < number / 2; i++) {
+        trungGian = arr[i]
+        arr[i] = arr[number - (i + 1)]
+        arr[number - [i + 1]] = trungGian
+
+
+    }
+    alert("mảng sau khi đảo là : " + arr)
+</script>
+</body>
+</html>

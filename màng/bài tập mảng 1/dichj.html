@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DICTIONARY</title>
+</head>
+<body>
+<h1>Từ Điển Anh-Viêt</h1>
+<input id="searchFor" type="text">
+<select id="chosen"><option value="vietnamese">Việt-Anh</option></select>
+<select><option value="english">Anh-việt</option></select>
+<button onclick="Trans()">Dịch</button>
+<p id="screem"></p>
+<script src="Dictionay.js"></script>
+</body>
+</html>
+<script>
+    function Trans() {
+        let engArr = ['Banana', 'Orange', 'Mango', 'Jackfruit', 'Dorian', 'Eat', 'Fruit', 'Cat', 'Dog', 'Tiger', 'animal'];
+        let vieArr = ['Quả chuối', 'Quả cam', 'Quả xoài', 'Quả mít', 'Sầu Riêng', 'ăn', 'Quả', 'Mèo', 'Chó', 'Hổ', 'Động vật'];
+        let result = '';
+        string = document.getElementById('searchFor').value;
+        if (document.getElementById('chosen').value === 'vietnamese') {
+            for (let i = 0; i < engArr.length; i++) {
+                debugger
+                if (string === vieArr[i]) {
+                    result = engArr[i];
+                    break;
+                }
+            }
+        } else {
+            for (let i = 0; i < engArr.length; i++) {
+                debugger
+                if (string === engArr[i]) {
+                    result = vieArr[i];
+                }
+            }
+        }
+        document.getElementById('screem').innerHTML = result;
+        }
+
+</script>
+</body>
+</html>
