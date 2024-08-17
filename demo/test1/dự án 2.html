@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop Điện Thoại Đà Nẵng | King SmartPhone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="js.css">
+    <style>
+        .btn-custom-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .btn-custom-primary:hover {
+            background-color: #0056b3;
+            border-color: #004080;
+        }
+        .btn-custom-success {
+            background-color: #28a745;
+            border-color: #28a745;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .btn-custom-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+        .btn-custom-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .btn-custom-secondary:hover {
+            background-color: #5a6268;
+            border-color: #545b62;
+        }
+        .btn-custom-info {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+        .btn-custom-info:hover {
+            background-color: #138496;
+            border-color: #117a8b;
+        }
+    </style>
+</head>
+<body>
+<header class="bg-primary text-white text-center py-3">
+    <div class="container">
+        <img src="data:image/png;base64,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" alt="Logo" class="img-fluid" style="max-width: 500000px;">
+        <h1 class="my-3">King SmartPhone</h1>
+    </div>
+</header>
+
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Quản Lý Sản Phẩm</h1>
+
+    <div class="mb-4">
+        <h2>Thêm Sản Phẩm</h2>
+        <form id="productForm">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="name" class="form-label">Tên Sản Phẩm</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="brand" class="form-label">Thương Hiệu</label>
+                    <input type="text" class="form-control" id="brand">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="type" class="form-label">Loại Sản Phẩm</label>
+                    <input type="text" class="form-control" id="type">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="image" class="form-label">Ảnh</label>
+                    <input type="text" class="form-control" id="image">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="amount" class="form-label">Số Lượng</label>
+                    <input type="number" class="form-control" id="amount">
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="price" class="form-label">Giá Tiền</label>
+                    <input type="number" class="form-control" id="price">
+                </div>
+            </div>
+            <button type="button" class="btn btn-custom-primary" onclick="addNewProduct()">Thêm Sản Phẩm</button>
+            <button type="button" class="btn btn-custom-success" onclick="save()">Cập Nhật Sản Phẩm</button>
+            <button type="button" class="btn btn-custom-secondary" onclick="clearForm()">Làm Mới</button>
+        </form>
+    </div>
+
+    <div class="mb-4">
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <label for="searchInput" class="form-label">Tìm Kiếm Sản Phẩm</label>
+                <input type="text" class="form-control" id="searchInput" onkeyup="searchProduct()">
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="sortSelect" class="form-label">Sắp Xếp Theo Giá</label>
+                <select class="form-select" id="sortSelect">
+                    <option value="">Chọn</option>
+                    <option value="asc">Tăng Dần</option>
+                    <option value="desc">Giảm Dần</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th>Tên</th>
+            <th>Thương Hiệu</th>
+            <th>Loại</th>
+            <th>Ảnh</th>
+            <th>Số Lượng</th>
+            <th>Giá Tiền</th>
+            <th>Sửa</th>
+            <th>Xóa</th>
+        </tr>
+        </thead>
+        <tbody id="view-body">
+
+        </tbody>
+    </table>
+</div>
+
+<button id="btn-modal" type="button" class="btn btn-custom-info d-none" data-bs-toggle="modal" data-bs-target="#imageModal">Xem Ảnh</button>
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Xem Ảnh</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img id="preview-image" src="" alt="Ảnh sản phẩm" class="img-fluid">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-custom-info" data-bs-dismiss="modal">Đóng</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-RyW7D3oZeo5MCtx61fB5Gp+VbLOlZCjJ8Qwlh5WgTeK09r9ULMTdVeP7biS8R8Yl" crossorigin="anonymous"></script>
+<script src="dự án 2.js"></script>
+</body>
+</html>
