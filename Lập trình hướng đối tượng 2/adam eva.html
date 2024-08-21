@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Class đại diện cho nhân vật
+    class Character {
+        constructor(name) {
+            this.name = name;
+        }
+
+        eat(apple) {
+            if (apple.bitesLeft > 0) {
+                apple.bitesLeft--;
+                console.log(`${this.name} ăn một miếng táo. Còn lại ${apple.bitesLeft} miếng.`);
+            } else {
+                console.log(`${this.name} không thể ăn được nữa, quả táo đã hết.`);
+            }
+        }
+    }
+
+    // Class đại diện cho quả táo
+    class Apple {
+        constructor(bites) {
+            this.bitesLeft = bites;
+        }
+    }
+
+    // Class đại diện cho Vườn Địa Đàng
+    class Garden {
+        constructor(bites) {
+            this.adam = new Character('Adam');
+            this.eva = new Character('Eva');
+            this.apple = new Apple(bites);  // Số miếng táo được nhập từ người dùng
+        }
+
+        startEating() {
+            console.log('Adam và Eva bắt đầu ăn quả táo trong Vườn Địa Đàng.');
+            while (this.apple.bitesLeft > 0) {
+                this.adam.eat(this.apple);
+                this.eva.eat(this.apple);
+            }
+            console.log('Quả táo đã bị ăn hết!');
+        }
+    }
+
+    // Nhận số lượng miếng táo từ người dùng
+    const bites = parseInt(prompt('Nhập số miếng táo: '), 10);
+
+    // Khởi chạy ứng dụng với số miếng táo đã nhập
+    if (!isNaN(bites) && bites > 0) {
+        const garden = new Garden(bites);
+        garden.startEating();
+    } else {
+        console.log('Vui lòng nhập số lượng miếng táo hợp lệ.');
+    }
+
+
+</script>
+</body>
+</html>

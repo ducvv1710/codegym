@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let str = "Đây là một chuỗi mẫu với một số từ.";
+
+    function countWords(s) {
+        let count = 0;
+        let inWord = false;
+
+        for (let i = 0; i < s.length; i++) {
+            if (s[i] !== ' ' && s[i] !== '\t' && s[i] !== '\n') {
+                if (!inWord) {
+                    inWord = true;
+                    count++;
+                }
+            } else {
+                inWord = false;
+            }
+        }
+
+        return count;
+    }
+
+    let wordCount = countWords(str);
+    console.log("Số từ trong chuỗi là:", wordCount);
+
+</script>
+
+</body>
+</html>

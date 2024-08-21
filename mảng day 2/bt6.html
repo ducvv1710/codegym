@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function replaceHyphensWithUnderscores(arr) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === '-') {
+                arr[i] = '_';
+            }
+        }
+        return arr;
+    }
+
+    let array = ['a', '-', 'b', '-', 'c', '-'];
+    console.log(replaceHyphensWithUnderscores(array));
+
+</script>
+</body>
+</html>

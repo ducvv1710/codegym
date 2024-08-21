@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cec02a66-fd89-43f4-bf52-1f3f556b3917" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/cau_truc _dieu_kien_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/Cấu trúc điều kiện 2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/dien tich hinh chu nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/dien tich hinh vuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/giai  phuong trinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/giai_pt_bac_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/nhập tuổi.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/tam giác vuông.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/xác định tam giác.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/test1/dự án 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/test1/dự án 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/if-else-witch-case.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cấu trúc điều kiện - day 1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoa _hong _theo _doanh _so.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/in so.html" beforeDir="false" afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/so lon nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toan if cong.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuoi hoc sinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xep hang hoc sinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2jQ3o0kcRePMWMv0UvxHzebhplt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/vovan/WebstormProjects/if-else-witch-case",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cec02a66-fd89-43f4-bf52-1f3f556b3917" name="Changes" comment="" />
+      <created>1721305645237</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721305645237</updated>
+      <workItem from="1721305646295" duration="1982000" />
+      <workItem from="1723901252979" duration="674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

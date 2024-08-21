@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Electric Lamp and Switch</title>
+    <style>
+        #result {
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            white-space: pre-wrap; /* Giữ khoảng trắng và dòng mới */
+        }
+    </style>
+</head>
+<body>
+<p id="result"></p>
+<script>
+    class ElectricLamp {
+        constructor(status) {
+            this.status = status; // Trạng thái bóng đèn, true = bật, false = tắt
+        }
+
+        // Phương thức lấy trạng thái của bóng đèn
+        getStatus() {
+            return this.status ? "Bóng đèn đang bật." : "Bóng đèn đang tắt.";
+        }
+    }
+
+    class SwitchButton {
+        constructor(lamp) {
+            this.lamp = lamp; // Kết nối công tắc với bóng đèn
+        }
+
+        // Phương thức bật công tắc
+        switchOn() {
+            this.lamp.status = true;
+            return "Công tắc đã bật.";
+        }
+
+        // Phương thức tắt công tắc
+        switchOff() {
+            this.lamp.status = false;
+            return "Công tắc đã tắt.";
+        }
+
+        // Phương thức chuyển đổi trạng thái công tắc
+        toggle() {
+            if (this.lamp.status) {
+                return this.switchOff();
+            } else {
+                return this.switchOn();
+            }
+        }
+    }
+
+    // Khởi tạo đối tượng bóng đèn và công tắc
+    let electricLamp_1 = new ElectricLamp(false);
+    let switchButton_1 = new SwitchButton(electricLamp_1);
+
+    // Thực hiện bật/tắt công tắc 10 lần và lưu kết quả
+    let result = [];
+    for (let i = 1; i <= 10; i++) {
+        result.push(`Lần thứ ${i}: ${switchButton_1.toggle()}`);
+        result.push(electricLamp_1.getStatus());
+    }
+
+    // Hiển thị kết quả trên trang web
+    document.getElementById('result').innerHTML = result.join('<br>');
+</script>
+</body>
+</html>
