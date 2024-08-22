@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function countCharacterInArray(array, targetChar) {
+        let occurrenceCount = 0;
+
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === targetChar) {
+                occurrenceCount++;
+            }
+        }
+
+        if (occurrenceCount === 0) {
+            return -1;
+        } else {
+            return occurrenceCount;
+        }
+    }
+
+    let charactersArray = ['a', 'b', 'c', 'a', 'a', 'b', 'c'];
+    let searchChar = 'a';
+    let result = countCharacterInArray(charactersArray, searchChar);
+
+    console.log(`Số lần xuất hiện của '${searchChar}': ${result}`);
+
+</script>
+</body>
+</html>

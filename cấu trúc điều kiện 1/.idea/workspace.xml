@@ -5,32 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec02a66-fd89-43f4-bf52-1f3f556b3917" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/12.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/cau_truc _dieu_kien_2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/Cấu trúc điều kiện 2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/dien tich hinh chu nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/dien tich hinh vuong.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/giai  phuong trinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/giai_pt_bac_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/nhập tuổi.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/tam giác vuông.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/xác định tam giác.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cau_truc _dieu_kien_2/9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demo/test1/dự án 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/test1/dự án 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/if-else-witch-case.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cấu trúc điều kiện - day 1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hoa _hong _theo _doanh _so.html" beforeDir="false" afterPath="$PROJECT_DIR$/6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/in so.html" beforeDir="false" afterPath="$PROJECT_DIR$/3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/so lon nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toan if cong.html" beforeDir="false" afterPath="$PROJECT_DIR$/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuoi hoc sinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xep hang hoc sinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Variable, Operator &amp; Data type/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Variable, Operator &amp; Data type/ứng  dụng máy tính/máy tính.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Variable, Operator &amp; Data type/ứng dụng chuyển đổi tiền tệ.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cân nặng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ứng dụng swicth cáe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../html &amp; git/tạo danh sách.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -45,6 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/vovan/WebstormProjects/if-else-witch-case",
@@ -60,7 +54,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.342" />
       </set>
     </attachedChunks>
   </component>
@@ -74,6 +68,8 @@
       <updated>1721305645237</updated>
       <workItem from="1721305646295" duration="1982000" />
       <workItem from="1723901252979" duration="674000" />
+      <workItem from="1724249605819" duration="765000" />
+      <workItem from="1724313858418" duration="722000" />
     </task>
     <servers />
   </component>

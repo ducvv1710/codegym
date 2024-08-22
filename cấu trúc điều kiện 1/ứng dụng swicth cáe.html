@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Days in Month Calculator</title>
+</head>
+<body>
+<h1>Days in Month Calculator</h1>
+<form id="daysForm">
+  <label for="month">Month:</label>
+  <select id="month" name="month">
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+  </select><br><br>
+
+  <label for="year">Year:</label>
+  <input type="number" id="year" name="year" min="1" value="2023" required><br><br>
+
+  <button type="submit">Calculate Days</button>
+</form>
+
+<p id="result"></p>
+
+<script>
+  document.getElementById('daysForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const month = parseInt(document.getElementById('month').value);
+    const year = parseInt(document.getElementById('year').value);
+    let days;
+
+    switch (month) {
+      case 1: // January
+      case 3: // March
+      case 5: // May
+      case 7: // July
+      case 8: // August
+      case 10: // October
+      case 12: // December
+        days = 31;
+        break;
+      case 4: // April
+      case 6: // June
+      case 9: // September
+      case 11: // November
+        days = 30;
+        break;
+      case 2: // February
+        if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+          days = 29;
+        } else {
+          days = 28;
+        }
+        break;
+      default:
+        days = "Invalid month";
+    }
+
+    document.getElementById('result').innerText = `Number of days: ${days}`;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function swapNumbers(a, b) {
+        console.log(`Trước khi đổi chỗ: a = ${a}, b = ${b}`);
+
+        let temp = a;
+        a = b;
+        b = temp;
+
+        console.log(`Sau khi đổi chỗ: a = ${a}, b = ${b}`);
+
+        return [a, b];
+    }
+
+    // Ví dụ sử dụng hàm
+    let [newA, newB] = swapNumbers(5, 10);
+    console.log(`Số mới: a = ${newA}, b = ${newB}`);
+</script>
+</body>
+</html>
